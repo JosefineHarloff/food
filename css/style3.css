@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-image: url("../img/3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 110px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 20px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+}
+
+.Corona {
+    display: grid; 
+    grid-template-areas:
+    "as1 he he as2"
+    "as1 na na as2"
+    "as1 a1 a1 as2"
+    "as1 di di as2"
+}
+
+.header {
+    grid-area: he;
+    margin-bottom: 1px;
+    height: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+.nav {
+    grid-area: na;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+
+.article {
+    grid-area: a1;
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    margin-bottom: 50px;
+}
+
+.innerdiv {
+    grid-area: di;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 70px;
+
+}
+
+.left {
+   background-color: rgb(255, 255, 255);
+   height: 230px;
+
+}
+
+.right {
+   background-color: rgb(131, 71, 71);
+}
+
+.aside1 {
+    grid-area: as1;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+}
+
+.aside2 {
+    grid-area: as2;
+}

@@ -1,1 +1,162 @@
-/* Denna fil skall innehålla din CSS kod */
+body {
+    margin: 0;
+    background-image: url("../img/hm.jpg");
+
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.GridWrapper {
+    display: grid; 
+    grid-template-areas:
+    "he he he he he he"
+    "di di di di di di"
+    "a1 a1 a1 a1 a1 a1"
+    "h3 h3 h3 h3 h3 h3"
+    "a3 a3 a3 a3 a3 a3"
+    "di2 di2 di2 di2 di2 di2"
+    ; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .header {
+        grid-area: he;
+        margin-top: -10px;
+        margin-bottom: 8px;
+    }
+
+    .inneGridWrapper {
+        grid-area: di;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 33px;
+        height: 50px;
+        font-size: 10px;
+        margin-bottom: -30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .article1 {
+        grid-area: a1;
+        text-align: center;
+        color: white;
+        font-size: 3px;
+        margin-top: -10px;
+        margin-bottom: -15px;
+    }
+
+    h3 {
+    grid-area: h3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    }
+
+    .article3 {
+        grid-area: a3;
+        background-color: rgb(78, 67, 60);
+        color: white;
+        width: 120px;
+        height: 40px;
+        font-size: 9px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 35px;
+        border-radius: 25px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .article2 {
+        grid-area: a2;
+        background-color: rgb(255, 255, 255);
+        color: rgb(99, 84, 68);
+        height: 300px;
+        width: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aside {
+        grid-area: as;
+        height: 300px;
+        display: flex;
+        justify-content: stretch;
+        align-items: center;
+        font-size: 30px;
+ 
+    }
+
+    .Öppertider {
+        width: 90px;
+        border-radius: 20px;
+        border-style: solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-width: 1px;
+    }
+
+    .Coronainfo {
+        width: 95px;
+        border-radius: 20px;
+        border-style: solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-width: 1px;
+    }
+
+    .innergridbild {
+      margin-top: -30px;
+    }
+
+    .Bord {
+        width: 90px;
+        border-radius: 20px;
+        border-style: solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-width: 1px;
+    }
+
+    .Resturanger {
+        width: 90px;
+        border-radius: 20px;
+        border-style: solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-width: 1px;
+    }
+
+    .Nerebilder {
+        grid-area: di2;
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+}
+
+    .omoss {
+        width: 50%;
+        height: 300px;
+    }
+
+    .bildpommes {
+       width: 50%;
+    }
+
+
+   
+
