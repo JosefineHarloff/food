@@ -35,7 +35,7 @@ body {
         height: 50px;
         font-size: 10px;
         margin-bottom: -30px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Source Code Variable', 'Arial Narrow', Arial, sans-serif;
     }
 
     .article1 {
@@ -70,6 +70,7 @@ body {
         margin-right: auto;
         margin-bottom: 35px;
         border-radius: 25px;
+        
     }
 
     a {

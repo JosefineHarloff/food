@@ -1,7 +1,6 @@
 body {
     margin: 0;
     background-image: url("../img/3.jpg");
-    background-repeat: no-repeat;
     background-size: 100%
 }
 
@@ -12,19 +11,18 @@ body {
     "as1 na na as2"
     "as1 di di as2"
     "as1 di di as2"
-    "as1 di di as2"
-    "as1 di di as2"
     ;
 }
 
 .header {
     grid-area: he;
-    background-color: rgb(255, 255, 255);
-    color: rgb(78, 67, 60);
+    background-color: rgb(206, 167, 94);  
+    color: rgb(43, 38, 35);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 28px;
+    height: 90px;
 }
 
 .aside1 {
@@ -34,15 +32,19 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: top;
+    width: 255px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
 }
 
 .aside2 {
     grid-area: as2;
+    width: 200px;
 }
 
 .nav {
     grid-area: na;
-    background-color: rgb(78, 67, 60);
+    background-color: rgb(43, 38, 35);
     color:white;
     height: 40px;
     display: flex;
@@ -51,20 +53,6 @@ body {
     font-size: 13px;
 }
 
-.inneGridWrapper {
-    grid-area: di;
-    display: grid;
-    background-color: rgb(219, 209, 152);
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 50px;
-    height: 610px;
-}
-
-.Bild1 {
-    display: grid;
-    
-}
 
 a {
     color: rgb(255, 255, 255);
@@ -79,4 +67,21 @@ a {
     border-width: 2px;
 }
 
+.row {
+    grid-area: di;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(223, 223, 223);    
+}
 
+
+
+.column {
+    grid-area: di;
+    display: flex;
+    margin-bottom: -6px;
+    margin-top: 35px;
+    grid-column-gap: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
