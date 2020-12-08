@@ -7,80 +7,111 @@ body {
 
 a {
     color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     text-decoration: none;
     width: 110px;
     height: 35px;
     font-size: 15px;
     border-radius: 20px;
     border-style: solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-width: 1px;
+    border-width: 2px;
 }
 
 .Corona {
     display: grid; 
     grid-template-areas:
-    "as1 he he as2"
     "as1 na na as2"
     "as1 a1 a1 as2"
     "as1 di di as2"
-}
-
-.header {
-    grid-area: he;
-    margin-bottom: 1px;
-    height: 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
- 
+    "as1 a2 a2 as2"
 }
 
 .nav {
     grid-area: na;
-    background-color: rgb(255, 255, 255);
-    height: 100px;
-    margin-bottom: 50px;
+    background-color: rgb(236, 236, 236);
+    color: rgb(37, 30, 25);
+    height: 75px;
+    width: 740px;
+    margin-top: 60px;
+    margin-bottom: -35px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 25px;
+   font-family: Avenir Next Condensed;
+  
 }
 
-.article {
+.article1 {
+    color: rgb(37, 30, 25);
     grid-area: a1;
-    background-color: rgb(255, 255, 255);
-    height: 120px;
-    margin-bottom: 50px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    width: 740px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Avenir Next Condensed;
+    
 }
 
 .innerdiv {
     grid-area: di;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 70px;
+    grid-column-gap:57px;
+    width: 90px;
 
 }
 
 .left {
-   background-color: rgb(255, 255, 255);
+   background-color: rgb(236, 236, 236); 
+   color: rgb(37, 30, 25);
    height: 230px;
-
+   width: 340px;
+   font-size: 20px;
+   display: flex;
+ justify-content: space-around;
+    align-items: center;
+    font-family: Avenir Next Condensed;
+    color: rgb(37, 30, 25);
 }
 
+
 .right {
-   background-color: rgb(131, 71, 71);
+   width: 340px;
+   margin-top: -20px;
+ 
+}
+
+.article2 {
+    grid-area: a2;
+    background-color: rgb(41, 35, 32);
+    color: rgb(236, 236, 236); ;
+    height: 230px;
+    width: 740px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: Avenir Next Condensed;
+    border-style: solid;
+    border-width: 3px;
+    
+
 }
 
 .aside1 {
     grid-area: as1;
+    width: 332px;
     display: flex;
-    justify-content: space-around;
     align-items: top;
+    justify-content: space-around;
 }
 
 .aside2 {
     grid-area: as2;
+    width: 332px;
 }
