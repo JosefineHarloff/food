@@ -175,3 +175,32 @@ a {
     justify-content: center;
     align-items: center;
   }
+
+  .centered7 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1196px;
+    left: 365px; 
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 72, 57);
+    width: 330px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .centered8 {
+    color: rgb(255, 254, 254);
+    position: absolute;
+    top: 1196px;
+    left: 53%;
+    font-weight: bold;
+    background-color: rgb(85, 72, 57);
+    width: 330px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
